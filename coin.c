@@ -6,6 +6,11 @@
 int main(){
   int coin = 0,total_H = 0,total_T = 0;
   int i = 0;
+  char name[8];
+  
+  printf("Who are you?");
+  scanf("%s",name);
+  printf("Hello %s",name);
   
   srand(time(NULL));
 
