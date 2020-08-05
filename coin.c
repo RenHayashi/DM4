@@ -31,10 +31,10 @@ int main(){
   printf("\nHeads: %d, Tails: %d\n",total_H,total_T);
   
   if (total_H >= total_T)
-    printf("YOU WIN\n");
+    printf("%s WIN\n",name);
   
   else
-    printf("YOU LOSE\n");
+    printf("%s LOSE\n",name);
   
   return 0;
 }
