@@ -25,5 +25,11 @@ int main(){
 
   printf("\nHeads: %d, Tails: %d\n",total_H,total_T);
   
+  if (total_H >= total_T)
+    printf("YOU WIN\n");
+  
+  else
+    printf("YOU LOSE\n");
+  
   return 0;
 }
