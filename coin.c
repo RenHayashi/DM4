@@ -12,6 +12,7 @@ int main(){
   scanf("%s",name);
   printf("Hello %s",name);
   
+  printf("Tossing a coin\n");
   srand(time(NULL));
 
   for (i = 0;i < 3;i++){
